@@ -1,5 +1,3 @@
-# test
-
 
 # File path
 REF_PATH = "C:\\Users\\Dean\\Dropbox\\Brand Elevate\\6 Website\\1 Important Configs\\Python Reference Folder\\"
