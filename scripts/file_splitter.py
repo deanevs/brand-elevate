@@ -1,6 +1,6 @@
 import os
 import constants
-
+import csv
 
 path = constants.RESULTS_PATH
 pathout = constants.RESULTS_PATH
@@ -8,7 +8,7 @@ in_file = 'Legend Life.csv-2017-01-19 22-47-15.csv'
 
 def split(filehandler, delimiter=',', row_limit=1000,output_name_template= pathout+ 'output_%s.csv', output_path='.',
           keep_headers=True):
-    import csv
+   
     reader = csv.reader(filehandler, delimiter=delimiter)
     current_piece = 1
     current_out_path = os.path.join(
